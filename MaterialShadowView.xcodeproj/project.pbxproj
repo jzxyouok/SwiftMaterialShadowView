@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		446D5F431D6406A4004EBA4E /* MaterialShadowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 446D5F421D6406A4004EBA4E /* MaterialShadowView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446D5F4A1D6406A4004EBA4E /* MaterialShadowView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446D5F3F1D6406A4004EBA4E /* MaterialShadowView.framework */; };
+		446D5F4F1D6406A4004EBA4E /* MaterialShadowViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446D5F4E1D6406A4004EBA4E /* MaterialShadowViewTests.swift */; };
+		446D5F5B1D6406C4004EBA4E /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446D5F591D6406C4004EBA4E /* ShadowView.swift */; };
+		446D5F5C1D6406C4004EBA4E /* MaterialShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446D5F5A1D6406C4004EBA4E /* MaterialShadowView.swift */; };
+		446D5F5F1D6407C1004EBA4E /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446D5F5D1D6407C1004EBA4E /* SnapKit.framework */; };
+		446D5F601D6407C1004EBA4E /* SnapKit.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 446D5F5E1D6407C1004EBA4E /* SnapKit.framework.dSYM */; };
+		446D5F631D6407FF004EBA4E /* SnapKit.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 446D5F5E1D6407C1004EBA4E /* SnapKit.framework.dSYM */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		446D5F4B1D6406A4004EBA4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 446D5F361D6406A4004EBA4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 446D5F3E1D6406A4004EBA4E;
+			remoteInfo = MaterialShadowView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		446D5F621D6407F9004EBA4E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				446D5F631D6407FF004EBA4E /* SnapKit.framework.dSYM in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		446D5F3F1D6406A4004EBA4E /* MaterialShadowView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MaterialShadowView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		446D5F421D6406A4004EBA4E /* MaterialShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaterialShadowView.h; sourceTree = "<group>"; };
+		446D5F441D6406A4004EBA4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		446D5F491D6406A4004EBA4E /* MaterialShadowViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialShadowViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		446D5F4E1D6406A4004EBA4E /* MaterialShadowViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialShadowViewTests.swift; sourceTree = "<group>"; };
+		446D5F501D6406A4004EBA4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		446D5F591D6406C4004EBA4E /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		446D5F5A1D6406C4004EBA4E /* MaterialShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialShadowView.swift; sourceTree = "<group>"; };
+		446D5F5D1D6407C1004EBA4E /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		446D5F5E1D6407C1004EBA4E /* SnapKit.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SnapKit.framework.dSYM; path = Carthage/Build/iOS/SnapKit.framework.dSYM; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		446D5F3B1D6406A4004EBA4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446D5F5F1D6407C1004EBA4E /* SnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446D5F461D6406A4004EBA4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446D5F4A1D6406A4004EBA4E /* MaterialShadowView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		446D5F351D6406A4004EBA4E = {
+			isa = PBXGroup;
+			children = (
+				446D5F5D1D6407C1004EBA4E /* SnapKit.framework */,
+				446D5F5E1D6407C1004EBA4E /* SnapKit.framework.dSYM */,
+				446D5F411D6406A4004EBA4E /* MaterialShadowView */,
+				446D5F4D1D6406A4004EBA4E /* MaterialShadowViewTests */,
+				446D5F401D6406A4004EBA4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		446D5F401D6406A4004EBA4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				446D5F3F1D6406A4004EBA4E /* MaterialShadowView.framework */,
+				446D5F491D6406A4004EBA4E /* MaterialShadowViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		446D5F411D6406A4004EBA4E /* MaterialShadowView */ = {
+			isa = PBXGroup;
+			children = (
+				446D5F421D6406A4004EBA4E /* MaterialShadowView.h */,
+				446D5F591D6406C4004EBA4E /* ShadowView.swift */,
+				446D5F5A1D6406C4004EBA4E /* MaterialShadowView.swift */,
+				446D5F441D6406A4004EBA4E /* Info.plist */,
+			);
+			path = MaterialShadowView;
+			sourceTree = "<group>";
+		};
+		446D5F4D1D6406A4004EBA4E /* MaterialShadowViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				446D5F4E1D6406A4004EBA4E /* MaterialShadowViewTests.swift */,
+				446D5F501D6406A4004EBA4E /* Info.plist */,
+			);
+			path = MaterialShadowViewTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		446D5F3C1D6406A4004EBA4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446D5F431D6406A4004EBA4E /* MaterialShadowView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		446D5F3E1D6406A4004EBA4E /* MaterialShadowView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 446D5F531D6406A4004EBA4E /* Build configuration list for PBXNativeTarget "MaterialShadowView" */;
+			buildPhases = (
+				446D5F3A1D6406A4004EBA4E /* Sources */,
+				446D5F3B1D6406A4004EBA4E /* Frameworks */,
+				446D5F3C1D6406A4004EBA4E /* Headers */,
+				446D5F3D1D6406A4004EBA4E /* Resources */,
+				446D5F611D6407C7004EBA4E /* ShellScript */,
+				446D5F621D6407F9004EBA4E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaterialShadowView;
+			productName = MaterialShadowView;
+			productReference = 446D5F3F1D6406A4004EBA4E /* MaterialShadowView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		446D5F481D6406A4004EBA4E /* MaterialShadowViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 446D5F561D6406A4004EBA4E /* Build configuration list for PBXNativeTarget "MaterialShadowViewTests" */;
+			buildPhases = (
+				446D5F451D6406A4004EBA4E /* Sources */,
+				446D5F461D6406A4004EBA4E /* Frameworks */,
+				446D5F471D6406A4004EBA4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				446D5F4C1D6406A4004EBA4E /* PBXTargetDependency */,
+			);
+			name = MaterialShadowViewTests;
+			productName = MaterialShadowViewTests;
+			productReference = 446D5F491D6406A4004EBA4E /* MaterialShadowViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		446D5F361D6406A4004EBA4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "默司";
+				TargetAttributes = {
+					446D5F3E1D6406A4004EBA4E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					446D5F481D6406A4004EBA4E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 446D5F391D6406A4004EBA4E /* Build configuration list for PBXProject "MaterialShadowView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 446D5F351D6406A4004EBA4E;
+			productRefGroup = 446D5F401D6406A4004EBA4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				446D5F3E1D6406A4004EBA4E /* MaterialShadowView */,
+				446D5F481D6406A4004EBA4E /* MaterialShadowViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		446D5F3D1D6406A4004EBA4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446D5F601D6407C1004EBA4E /* SnapKit.framework.dSYM in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446D5F471D6406A4004EBA4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		446D5F611D6407C7004EBA4E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		446D5F3A1D6406A4004EBA4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446D5F5B1D6406C4004EBA4E /* ShadowView.swift in Sources */,
+				446D5F5C1D6406C4004EBA4E /* MaterialShadowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446D5F451D6406A4004EBA4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446D5F4F1D6406A4004EBA4E /* MaterialShadowViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		446D5F4C1D6406A4004EBA4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 446D5F3E1D6406A4004EBA4E /* MaterialShadowView */;
+			targetProxy = 446D5F4B1D6406A4004EBA4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		446D5F511D6406A4004EBA4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		446D5F521D6406A4004EBA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		446D5F541D6406A4004EBA4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = MaterialShadowView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.ccmos.MaterialShadowView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		446D5F551D6406A4004EBA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = MaterialShadowView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.ccmos.MaterialShadowView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		446D5F571D6406A4004EBA4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MaterialShadowViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.ccmos.MaterialShadowViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		446D5F581D6406A4004EBA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MaterialShadowViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.ccmos.MaterialShadowViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		446D5F391D6406A4004EBA4E /* Build configuration list for PBXProject "MaterialShadowView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446D5F511D6406A4004EBA4E /* Debug */,
+				446D5F521D6406A4004EBA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		446D5F531D6406A4004EBA4E /* Build configuration list for PBXNativeTarget "MaterialShadowView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446D5F541D6406A4004EBA4E /* Debug */,
+				446D5F551D6406A4004EBA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		446D5F561D6406A4004EBA4E /* Build configuration list for PBXNativeTarget "MaterialShadowViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446D5F571D6406A4004EBA4E /* Debug */,
+				446D5F581D6406A4004EBA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 446D5F361D6406A4004EBA4E /* Project object */;
+}
