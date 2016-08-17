@@ -12,7 +12,11 @@ import SnapKit
 @IBDesignable
 public class MaterialShadowView: UIView {
     
-    @IBInspectable public var depth: UInt = 1
+    @IBInspectable public var depth: UInt = 1 {
+        didSet {
+            self.reDrawShadows()
+        }
+    }
     
     let topShadowView = ShadowView()
     let bottomShadowView = ShadowView()
@@ -20,13 +24,13 @@ public class MaterialShadowView: UIView {
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
-        setup()
+        self.setup()
     }
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        setup()
+        self.setup()
     }
     
     override public func prepareForInterfaceBuilder() {
@@ -41,20 +45,24 @@ public class MaterialShadowView: UIView {
         self.insertSubview(topShadowView, atIndex: 0)
         self.insertSubview(bottomShadowView, atIndex: 0)
         
-        topShadowView.snp_makeConstraints { (make) in
+        self.topShadowView.snp_makeConstraints { (make) in
             make.top.left.right.bottom.equalTo(self)
         }
         
-        bottomShadowView.snp_makeConstraints { (make) in
+        self.bottomShadowView.snp_makeConstraints { (make) in
             make.top.left.right.bottom.equalTo(self)
         }
         
-        if depth > 5 {
-            depth = 5
+        self.reDrawShadows()
+    }
+    
+    func reDrawShadows() {
+        if self.depth > 5 {
+            self.depth = 5
         }
         
-        if depth < 1 {
-            depth = 1
+        if self.depth < 1 {
+            self.depth = 1
         }
         
         if depth == 1 {
